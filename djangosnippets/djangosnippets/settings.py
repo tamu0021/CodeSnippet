@@ -31,11 +31,17 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # 管理画面の機能を持つアプリ
     'django.contrib.admin',
+    # 認証機能を持つアプリ
     'django.contrib.auth',
+    # COntent-Typeに関する機能を持つアプリ
     'django.contrib.contenttypes',
+    # セッション管理の機能を持つアプリ
     'django.contrib.sessions',
+    # フラッシュメッセージのためのアプリ
     'django.contrib.messages',
+    # 静的ファイル(CSSやJavaScriptなど)に関連する機能を持つアプリ
     'django.contrib.staticfiles',
 ]
 
