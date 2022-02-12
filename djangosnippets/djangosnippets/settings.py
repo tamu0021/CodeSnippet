@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     # 静的ファイル(CSSやJavaScriptなど)に関連する機能を持つアプリ
     'django.contrib.staticfiles',
+    # スニペットアプリ
+    'snippets.apps.SnippetsConfig',
 ]
 
 MIDDLEWARE = [
